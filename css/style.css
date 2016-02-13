@@ -1,0 +1,93 @@
+html,body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    text-align: center;
+}
+header{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    height: 2em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+        
+}
+main{
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height:100%;
+    background-color:pink;
+    text-align: center;
+    box-sizing: border-box;
+    clear: both;
+}
+#sec{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: calc(100%/3);
+    background-color: aquamarine;
+}
+article:nth-of-type(1){
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    height:70%;
+    background-color: cadetblue;
+}
+article:nth-of-type(2){
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height:30%;
+    background-color:gainsboro;
+}
+#middle{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:calc(100%/3);
+    background-color: ghostwhite;
+}
+#img1{
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    width: calc(100%/2);
+    background-color: aqua;
+    height: calc(100%/2);
+    
+}
+#img2{ 
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    width: calc(100%/2);
+    background-color:skyblue;
+    height: calc(100%/2);
+}
+#text{
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    width: 100%;
+    height: 50%;
+    background-color: cornflowerblue
+}
+
+
+
+footer{
+    margin: 0 auto;
+    padding: 0;
+    background-color: grey;
+    width: 90%;
+    height: 50px;
+    line-height: 3;
+}
